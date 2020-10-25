@@ -20,16 +20,16 @@ vgui2_interface_list;          /* a1 ? ? ? ? 89 41 08 8b c1 (vgui2.dll)         
 InterfaceReg* client_interface_list         
       = **(InterfaceReg***)utils::find_pattern((char*)"\x89\x01\xa1\x00\x00\x00\x00\x89\x41\x08\x8b\xc1 ", (char*)"xxx????xxxxx", dll_client, 0x552EC8, 3);
 
-InterfaceReg *engine_interface_list         
+InterfaceReg* engine_interface_list         
       = **(InterfaceReg***)utils::find_pattern((char*)"\xa1\x00\x00\x00\x00\x89\x41\x08\x8b\xc1", (char*)"x????xxxxx", dll_engine, 0x243FF5 , 1);
 
-InterfaceReg *vgui2_interface_list          
+InterfaceReg* vgui2_interface_list          
       = **(InterfaceReg***)utils::find_pattern((char*)"\xa1\x00\x00\x00\x00\x89\x41\x08\x8b\xc1", (char*)"x????xxxxx", dll_vgui2, 0x1EE45 , 1);
 
-InterfaceReg *vstdlib_interface_list        
+InterfaceReg* vstdlib_interface_list        
       = **(InterfaceReg***)utils::find_pattern((char*)"\xa1\x00\x00\x00\x00\x89\x41\x08\x8b\xc1", (char*)"x????xxxxx", dll_vstdlib, 0xBCDA , 1);
 
-InterfaceReg *vguimatsurface_interface_list 
+InterfaceReg* vguimatsurface_interface_list 
       = **(InterfaceReg***)utils::find_pattern((char*)"\xa1\x00\x00\x00\x00\x89\x41\x08\x8b\xc1", (char*)"x????xxxxx", dll_vguimatsurface, 0x6DF51 , 1);
 ```
 ```c++
