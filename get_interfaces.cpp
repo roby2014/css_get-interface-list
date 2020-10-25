@@ -49,6 +49,7 @@ void init::get_interfaces()
 
 
 // UTILS (s/o BigMo/Zat-s-CSGO-Simple)
+// You can use your find pattern function anyways.
 uintptr_t utils::find_pattern(char* pattern, char* mask, uintptr_t start, uintptr_t end, uintptr_t offset) 
 {
 	int patternLength = strlen(mask);
