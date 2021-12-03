@@ -1,6 +1,6 @@
 # CS:S Get interface list
 
-**Just a quick example on how to get interface list from game modules with s_pInterfaceRegs (CreateInterfaceInternal), in CS:S. :alien:**  
+**Just a quick example on how to get interface list from game modules with <a href="https://github.com/ValveSoftware/source-sdk-2013/blob/master/sp/src/public/tier1/interface.h#L72">s_pInterfaceRegs</a> (<a href="https://github.com/ValveSoftware/source-sdk-2013/blob/master/sp/src/tier1/interface.cpp#L68">CreateInterfaceInternal</a>), in CS:S. :alien:**  
 
 _Well you could sigscan for every interface pointer OR use exported "CreateInterface", but this way is easier/cleaner imo. (and gets u everything u need basically)_ 
    
