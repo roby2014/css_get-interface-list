@@ -44,12 +44,11 @@ uintptr_t* surface     = get_interface_ptr<uintptr_t*>("VGUI_Surface030", vguima
 
    
 
-> If you want to debug all interfaces from the list:
+> If you want to debug all interfaces from the list, you can use this function:
 ```c++
 debug_interface_list(InterfaceReg* interface_list);
 ```
 ![alt text](https://i.imgur.com/cqLRhaO.jpeg)
+<b>Now you can use interface pointers and do what you want!</b> :wink:  <br/>
 
-<br/><br/>
-**Now you can use interface pointers and do what you want! :wink:  
-Anyways, nothing special, (my code sucks) but enjoy. :+1:**  
+Credits (really well explained here): https://aixxe.net/2017/03/walking-interface-list
